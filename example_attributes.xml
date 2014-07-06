@@ -1,0 +1,19 @@
+<Attributes>
+	<Attribute name = "temperatura" type = "continuous">
+		<RightBound>50</RightBound>
+		<LeftBound>-40</LeftBound>
+	</Attribute>
+	<Attribute name = "aura" type = "nominal">
+		<Value>sloneczna</Value>
+		<Value>pochmurna</Value>
+		<Value>lekkie opady</Value>
+		<Value>silne opady</Value>
+	</Attribute>
+	<Attribute name = "wiatr" type = "ordered">
+		<Value>brak</Value>
+		<Value>lekki</Value>
+		<Value>sredni</Value>
+		<Value>silny</Value>
+		<Value>huraganowy</Value>
+	</Attribute>
+</Attributes>

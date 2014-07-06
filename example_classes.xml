@@ -1,0 +1,12 @@
+<Classes>
+	<Class name="czy_uciekac" description="Ten opis jest jest tylko dla picu, ale niech będzie">
+		<Category>no_pewnie</Category>
+		<Category>nie_trzeba</Category>
+		<Category>too_late</Category>
+	</Class>
+
+	<Class name="oswajalny" description="Ten opis jest jest tylko dla picu, ale niech będzie">
+		<Category>nie</Category>
+		<Category>tak</Category>
+	</Class>
+</Classes>

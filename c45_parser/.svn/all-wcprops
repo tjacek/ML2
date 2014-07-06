@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/mllib/!svn/ver/19/trunk/c45_parser
+END
+c45_format.erl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mllib/!svn/ver/19/trunk/c45_parser/c45_format.erl
+END
+c45_scanner.erl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mllib/!svn/ver/19/trunk/c45_parser/c45_scanner.erl
+END
+example_c45
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/mllib/!svn/ver/19/trunk/c45_parser/example_c45
+END
+c45_parser.erl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mllib/!svn/ver/19/trunk/c45_parser/c45_parser.erl
+END
+c45_scanner.xrl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mllib/!svn/ver/19/trunk/c45_parser/c45_scanner.xrl
+END
+c45_parser.yrl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/mllib/!svn/ver/19/trunk/c45_parser/c45_parser.yrl
+END

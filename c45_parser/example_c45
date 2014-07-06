@@ -1,0 +1,21 @@
+good, bad. 
+dur: continuous. 
+wage1: continuous. 
+wage2: discrete 4 
+wage3: continuous. cola: tc, none, tcf.
+
+| komentarz
+| c45_format:file(example_c45).
+ 
+hours: continuous. 
+pension: empl_contr, ret_allw, none, 2. 
+stby_pay: continuous. 
+shift_diff: continuous. 
+educ_allw: yes, no. 
+holidays: continuous. 
+vacation: average, generous, below_average. 
+lngtrm  disabil: yes, no. 
+dntl    ins: half, none, full. 
+bereavement: yes, no. 
+empl_hplan: half, full, none.
+

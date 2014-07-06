@@ -1,0 +1,24 @@
+good, bad.
+dur: ignore. wage1: continuous. wage2: discrete 4
+wage3: continuous.
+
+| komentarz
+| c45_format:file(example_c45).
+| Atrybuty:
+| - wszystkie: 16
+| - bez klasy: 15
+| - z klasą, nieignorowane: 14
+| - bez klasy, nieignorowane: 13
+ 
+hours: continuous. 
+pension: empl_contr, ret_allw, none. 
+stby_pay: continuous. 
+shift_diff: continuous. 
+educ_allw:yes, no. 
+holidays: ignore. 
+vacation: average, generous, below_average. 
+lngtrm  disabil: yes, no. 
+dntl    ins: half, none, full. 
+bereavement: yes, no. 
+empl_hplan: half, full, none.
+

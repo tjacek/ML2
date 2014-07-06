@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/mllib/!svn/ver/35/branches/naive_port/port
+END
+mllib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/mllib/!svn/ver/32/branches/naive_port/port/mllib.cpp
+END
+naive_worker.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/mllib/!svn/ver/35/branches/naive_port/port/naive_worker.h
+END
+erl_comm.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/mllib/!svn/ver/33/branches/naive_port/port/erl_comm.h
+END
+mllib.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/mllib/!svn/ver/33/branches/naive_port/port/mllib.h
+END
+naive_worker.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/mllib/!svn/ver/35/branches/naive_port/port/naive_worker.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mllib/!svn/ver/31/branches/naive_port/port/Makefile
+END
+erl_comm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/mllib/!svn/ver/33/branches/naive_port/port/erl_comm.cpp
+END

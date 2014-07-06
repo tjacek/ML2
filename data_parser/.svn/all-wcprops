@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/mllib/!svn/ver/19/trunk/data_parser
+END
+data_scanner.erl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/mllib/!svn/ver/19/trunk/data_parser/data_scanner.erl
+END
+example_data
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/mllib/!svn/ver/19/trunk/data_parser/example_data
+END
+data_parser.erl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mllib/!svn/ver/19/trunk/data_parser/data_parser.erl
+END
+data_scanner.xrl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/mllib/!svn/ver/19/trunk/data_parser/data_scanner.xrl
+END
+example_arff
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/mllib/!svn/ver/19/trunk/data_parser/example_arff
+END
+data.erl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/mllib/!svn/ver/19/trunk/data_parser/data.erl
+END
+data_parser.yrl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mllib/!svn/ver/19/trunk/data_parser/data_parser.yrl
+END

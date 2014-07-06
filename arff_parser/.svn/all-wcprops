@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/mllib/!svn/ver/19/trunk/arff_parser
+END
+arff.erl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/mllib/!svn/ver/19/trunk/arff_parser/arff.erl
+END
+arff_parser.yrl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mllib/!svn/ver/19/trunk/arff_parser/arff_parser.yrl
+END
+arff_scanner.erl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/mllib/!svn/ver/19/trunk/arff_parser/arff_scanner.erl
+END
+example_arff
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/mllib/!svn/ver/19/trunk/arff_parser/example_arff
+END
+arff_parser.erl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/mllib/!svn/ver/19/trunk/arff_parser/arff_parser.erl
+END
+arff_scanner.xrl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/mllib/!svn/ver/19/trunk/arff_parser/arff_scanner.xrl
+END
