@@ -11,12 +11,29 @@
 %% Exported Functions
 %%
 
--export([mine/2, test/4, testseq/3]).
+-export([mine/2,extCall/1,test/4, testseq/3]).
 %% paralel
--export([apriori_worker/1]).
+-export([apriori_worker/1,experiment/5]).
 %%
 %% API Functions
 %%
+
+extCall(Args) ->
+  MinSup= list_to_float(lists:nth(1,Args)), 
+  MinConf=list_to_float(lists:nth(2,Args)),
+  DatasetWorkers=list_to_integer(lists:nth(3,Args)), 
+  ItemsetWorkers=list_to_integer(lists:nth(4,Args)), 
+  DatasetName=lists:nth(5,Args),
+  apriori_cyclic:experiment(MinSup, MinConf, DatasetWorkers,ItemsetWorkers,DatasetName). 
+
+experiment(MinSup, MinConf,DatasetWorkers,ItemsetWorkers,DatasetName) ->
+  {ok, Data} = mllib:read_mine_data(DatasetName),
+  %Nodes= [node()],
+  Options = [{min_sup, MinSup}, {dataset_workers, DatasetWorkers},     {itemset_workers,ItemsetWorkers}, {min_conf, MinConf}],
+  %Result=apriori:mine(Data, Options),
+  %Result = mllib:mine(Data, apriori, Options, Nodes),
+  mllib:mine(Data, apriori_cyclic, Options).
+  %Result = apriori_cyclic:mine(Data,Options).
 
 -spec mine(Data :: [ [any()] ], Options :: []) -> [{Antecedent :: [any()],Consequent :: [any()],SupAntecedent::number(),SupNominator::number(),Confidence::number()}] | [{FrequentSubsequence :: [any()], Support :: number()}].
 % @spec mine(Data, Options) -> [{Antecedent,Consequent,SupAntecedent,SupNominator,Confidence}] | [{FrequentSubsequence, Support}] where Data = [ [any()] ], Options = [], Antecedent = [any()],Consequent = [any()],SupAntecedent = number(),SupNominator=number(),Confidence=number(), FrequentSubsequence = [any()], Support = number()
@@ -46,7 +63,7 @@ freq_apriori(Data, DataWorkers, ItemsetWorkers, MinSup, MinConf) ->
 	?LOG("create dicts\n", []),
 	DataPortions = split_data(Data, DataWorkers),
 	MetaData = [ get_meta(DataPortion, 1, dict:new()) || DataPortion <- DataPortions ],
-	
+	io:format("~p \n",[MetaData]),
 	?LOG("before spawn\n", []),	
 	WorkerIds = [ {{DataWorker, ItemsetWorker}, supervisor_manager:compute(apriori_worker, [lists:nth(DataWorker, MetaData)])} 
 			|| DataWorker <- lists:seq(1,DataWorkers),

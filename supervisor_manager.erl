@@ -61,7 +61,7 @@ event_loop(Module, N, ReturnPid, EtsPids) ->
 		{_OtherProcess, stop} ->
 			gen_event:stop(nodes_time),
 			node_provider ! {self(), stop},
-			unregister(node_provider),
+			%unregister(node_provider),
 			global:unregister_name(supervisor),
 			ReturnPid ! {ok, stopped},
 			stop_ets(EtsPids),
